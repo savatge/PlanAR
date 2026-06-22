@@ -1,0 +1,56 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+text-align: center;
+margin: 20px;
+}
+
+h1 {
+color: #0077cc;
+}
+
+.contenedor-eventos {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+.tarjeta {
+background-color: white;
+width: 250px;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+transform: scale(1.05);
+}
+
+.botones {
+margin-top: 25px;
+}
+
+button {
+padding: 10px 15px;
+margin: 5px;
+border: none;
+border-radius: 8px;
+background-color: #0077cc;
+color: white;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover {
+background-color: #005fa3;
+}
+
+#mensajeReserva,
+#categorias {
+margin-top: 20px;
+font-weight: bold;
+}
