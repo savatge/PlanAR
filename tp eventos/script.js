@@ -1,6 +1,11 @@
-const btnReservar = document.getElementById("reservarBtn");
-const mensaje = document.getElementById("mensajeReserva");
+const categorias = ["Conciertos", "Ferias", "Deportes"];
 
-btnReservar.addEventListener("click", () => {
-    mensaje.textContent = "Reserva realizada correctamente";
-});
+const listaCategorias = document.getElementById('lista-categorias');
+
+if (listaCategorias) {
+    categorias.forEach(categoria => {
+        const item = document.createElement('li');
+        item.textContent = categoria;
+        listaCategorias.appendChild(item);
+    });
+}
