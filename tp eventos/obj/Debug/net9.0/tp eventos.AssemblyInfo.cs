@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tp eventos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34cd9da296f556c1f202990d764477c9e1d0870f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74e8926b7c3ebc6632f212de58a741abddf98acd")]
 [assembly: System.Reflection.AssemblyProductAttribute("tp eventos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tp eventos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
